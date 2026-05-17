@@ -10,7 +10,7 @@ Personal portfolio website for Kavibharathi G, B.Tech AI & Data Science student 
 
 ## 🔗 Live Demo
 
-> Deploy link here (GitHub Pages / Netlify / Vercel)
+**[kavibharathi207-portfolio.vercel.app](https://kavibharathi207-portfolio.vercel.app/)**
 
 ---
 
@@ -51,6 +51,7 @@ Personal portfolio website for Kavibharathi G, B.Tech AI & Data Science student 
 - **Three.js** — 3D particle field background
 - **EmailJS** — Contact form email delivery to Gmail
 - **Google Fonts** — Bebas Neue + Outfit
+- **Vercel** — Deployment and hosting
 
 ---
 
@@ -105,7 +106,7 @@ Works with any static hosting:
 ## 📁 File Structure
 
 portfolio/
-├── index.html      # All content, styles, and scripts
+├── index.html      # HTML + CSS + JavaScript (all in one file)
 └── README.md
 
 ---

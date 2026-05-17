@@ -1,41 +1,103 @@
-# Kavibharathi Portfolio
+# Kavibharathi G — Portfolio
 
-A modern one-page portfolio website showcasing personal branding, skills, projects, and contact details.
+Personal portfolio website for Kavibharathi G, B.Tech AI & Data Science student at Sri Krishna College of Technology (2027).
 
-## Overview
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
-This project is a lightweight portfolio built with:
+## 🔗 Live Demo
 
-- `HTML` for structure
-- `CSS` for styling and responsive layout
-- `JavaScript` for interactive behavior and animations
+> Deploy link here (GitHub Pages / Netlify / Vercel)
 
-## Key Features
+---
 
-- Clean, responsive design for desktop and mobile
-- Smooth scrolling and reveal effects
-- Easy-to-edit personal and contact sections
-- Simple project or skills showcase layout
+## ✨ Features
 
-## File Structure
+- **3D Particle Background** — Interactive Three.js particle field with mouse tracking
+- **Custom Cursor** — Dual-layer animated cursor with hover effects
+- **Smooth Loader** — Animated progress bar on page load
+- **Dark / Light Mode** — Toggle with preference saved to localStorage
+- **Scroll Progress Bar** — Top bar tracks reading progress
+- **Scroll Reveal Animations** — Elements animate in as you scroll
+- **Animated Counters** — CGPA, projects, and certifications count up on view
+- **Working Contact Form** — EmailJS integration sends messages directly to Gmail inbox
+- **Fully Responsive** — Mobile-friendly layout with parallax disabled on small screens
+- **Active Nav Highlight** — Navigation link highlights as you scroll through sections
 
-- `index.html` — main portfolio page content
-- `styles.css` — layout, colors, and responsive styling
-- `script.js` — page interactions and scroll animations
+---
 
-## Getting Started
+## 📄 Sections
 
-1. Open `index.html` in a web browser.
-2. Edit the content in `index.html` to update your name, bio, skills, and contact details.
-3. Customize `styles.css` to adjust colors, spacing, or typography.
-4. Modify `script.js` to change animation behavior or add new page interactions.
+| Section | Content |
+|---------|---------|
+| Hero | Name, title, stats bar, CTA buttons |
+| About | Bio, education details, location |
+| Skills | Technical, Web, Coursework, Soft Skills |
+| Projects | 4 featured projects with tech stack |
+| Experience | Internships and hackathons |
+| Certifications | 7 certifications from Microsoft, AWS, MathWorks, etc. |
+| Contact | Email, LinkedIn, GitHub, working contact form |
 
-## Deployment
+---
 
-- Host the site on GitHub Pages, Netlify, or any static site hosting provider.
-- Simply publish the project folder and share the generated URL.
+## 🛠️ Tech Stack
 
-## Notes
+- **HTML5** — Structure and content
+- **CSS3** — Styling, dark/light theming with CSS variables, responsive layout
+- **JavaScript (ES6)** — Animations, scroll effects, counters, theme toggle
+- **Three.js** — 3D particle field background
+- **EmailJS** — Contact form email delivery to Gmail
+- **Google Fonts** — Bebas Neue + Outfit
 
-- Review and update the email address or contact information in `index.html` before publishing.
-- Keep the project assets simple and lightweight for fast page loading.
+---
+
+## 🚀 Getting Started
+
+1. Clone or download the project
+2. Open `index.html` directly in any browser — no build step needed
+
+```bash
+git clone https://github.com/Kavibharathi207/portfolio.git
+cd portfolio
+open index.html
+```
+
+---
+
+## ⚙️ EmailJS Setup
+
+The contact form uses EmailJS to deliver messages directly to Gmail.
+
+To configure it for your own account:
+
+1. Sign up at [emailjs.com](https://www.emailjs.com)
+2. Go to **Email Services** → Add New Service → Connect Gmail
+3. Go to **Email Templates** → Select **Contact Us**
+4. Go to **Account → General** → Copy your Public Key
+5. Replace these values in `index.html`:
+
+```javascript
+emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+  name: name,
+  email: email,
+  message: message
+})
+```
+
+> Make sure your template uses `{{name}}`, `{{email}}`, and `{{message}}` as variable names.
+
+---
+
+## 🌐 Deployment
+
+Works with any static hosting:
+
+- **GitHub Pages** — Push to repo, enable Pages in Settings
+- **Netlify** — Drag and drop the folder
+- **Vercel** — Import the repo and deploy
+
+---
+
+## 📁 File Structure

@@ -798,8 +798,12 @@ document.getElementById('send-btn').addEventListener('click',function(e){
   const btn=this;
   btn.disabled=true;
   btn.innerHTML='<span>Sending...</span> <span>⏳</span>';
-  emailjs.init("Kx-1K-LhVgJPvuUYR");
-  emailjs.send('service_z0klcff','template_p89w4ej',{from_name:name,from_email:email,message:message,to_email:'kavibharathigopal0705@gmail.com'})
+  emailjs.init("uUbgFBDw7fd_HtSyY");
+emailjs.send('service_9r0d228','template_p89w4ej',{
+  name:name,
+  email:email,
+  message:message
+})
     .then(()=>{
       alert('Message sent successfully!');
       document.getElementById('name').value='';

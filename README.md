@@ -101,3 +101,13 @@ Works with any static hosting:
 ---
 
 ## 📁 File Structure
+
+portfolio/
+├── index.html      # All content, styles, and scripts
+└── README.md
+
+---
+
+## 📄 License
+
+MIT License — © 2026 Kavibharathi G

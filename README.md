@@ -103,14 +103,6 @@ Works with any static hosting:
 
 ---
 
-## 📁 File Structure
-
-portfolio/
-├── index.html      # HTML + CSS + JavaScript (all in one file)
-└── README.md
-
----
-
 ## 📄 License
 
 MIT License — © 2026 Kavibharathi G

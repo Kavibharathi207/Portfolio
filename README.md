@@ -5,6 +5,8 @@ Personal portfolio website for Kavibharathi G, B.Tech AI & Data Science student 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 
 ## 🔗 Live Demo
 
